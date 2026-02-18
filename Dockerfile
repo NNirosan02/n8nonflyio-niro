@@ -1,4 +1,4 @@
-FROM node:lts-alpine
+FROM node:20-bookworm-slim
 
 # pass N8N_VERSION Argument while building or use default
 ARG N8N_VERSION=1.39.1
